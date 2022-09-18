@@ -1,3 +1,5 @@
 When a user tries to access my website via its domain name, the browser sends an HTTP request to my nginx web server. The web server is one feature of my web stack which includes a database, application server, and codebase, all hoisted on a Linux OS server. 
 The web server (Nginx) receives requests from browsers in form of packets. If the requested page contains only static content, the web server responds with the content in HTML and the browser displays the content. However, if the requested page contains dynamic content, the web server will send a servlet request to the app server. 
 The app server will run the necessary code in the codebase, query the database if required, and send a servlet response to the web server. The web server will serve the response to the user's browser.
+
+Link to the diagram: https://drive.google.com/file/d/1kIFqTObcGkJltOb6gg9ZLAAYRmo0-aIk/view?usp=sharing
